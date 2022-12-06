@@ -59,4 +59,6 @@ For the following events the code should print out a line in the following forma
   -p N for N ≥ 1;  
   
   Sample output could be:  
+     ```
      20,RUNNING,pid=15,remaining_time=10,cpu=0
+     ```
