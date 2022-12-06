@@ -26,6 +26,6 @@ use this information if you choose to.
 ## Program specification
 Take the following command line arguments. The arguments can be passed in any order but you can assume that they will be passed exactly once.
 
-`-f` filename will specify the name of the file describing the processes.
-`-p` processors where processors is one of {1,2,N}, N ≤ 1024.
-`-c` an optional parameter, when provided, invokes your own scheduler from [Challenge] (#chanllenge:_improve_the_performance).
+* `-f` filename will specify the name of the file describing the processes.
+* `-p` processors where processors is one of {1,2,N}, N ≤ 1024.
+* `-c` an optional parameter, when provided, invokes your own scheduler from [Challenge] (#chanllenge:_improve_the_performance).
