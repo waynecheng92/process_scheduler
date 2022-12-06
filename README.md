@@ -47,7 +47,10 @@ Take the following command line arguments. The arguments can be passed in any or
 ### Execution transcript  
 For the following events the code should print out a line in the following format:
 * When a (sub)process starts and every time it resumes its execution:  
+
+     ```
      <current-time>,RUNNING,pid=<process-id>,remaining_time=<T>,cpu=<cpu-id>\n  
+     ```
   where:
   ‘current-time’ refers to the time at which CPU is given to a process;  
   ‘process-id’ refers to the id of the process that is about to be run;  
