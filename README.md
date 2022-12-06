@@ -45,4 +45,14 @@ Take the following command line arguments. The arguments can be passed in any or
 
 ## Expected ouput
 ### Execution transcript  
-* For the following events the code should print out a line in the following format:
+For the following events the code should print out a line in the following format:
+* When a (sub)process starts and every time it resumes its execution:  
+     <current-time>,RUNNING,pid=<process-id>,remaining_time=<T>,cpu=<cpu-id>\n  
+  where:
+  ‘current-time’ refers to the time at which CPU is given to a process;  
+  ‘process-id’ refers to the id of the process that is about to be run;  
+  ‘T’ refers to the remaining execution time for this process;  
+  ‘cpu-id’ refers to the processor where the process is scheduled on. It can be 0, 1, 2 . . . , N − 1 when
+  -p N for N ≥ 1;  
+  Sample output could be:  
+     20,RUNNING,pid=15,remaining_time=10,cpu=0
