@@ -39,7 +39,7 @@ Given processes.txt with the following information:
 20 3 30 n  
 ```
 
-The program should simulate execution of 4 processes where process 4 arrives at time 0, needs 30 seconds running time to finish; process 2 arrives at time 3 and needs 40 seconds of time to complete.
+  The program should simulate execution of 4 processes where process 4 arrives at time 0, needs 30 seconds running time to finish; process 2 arrives at time 3 and needs 40 seconds of time to complete.
 Each line (including the last) will be terminated with a LF (ASCII 0x0a) control character.
 You can read the whole file before starting the simulation or read one line at a time. We will not give malformed input (e.g., negative number of processors after `-p` or more than 4 columns in the process description file).
 
