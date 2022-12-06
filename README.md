@@ -36,10 +36,10 @@ The **filename** contains the processes to be executed and has the following for
 The allocation program is required to simulate execution of processes in the file processes.txt on a single CPU.
 
 Given processes.txt with the following information: 
-0 4 30 n__
-3 2 40 n__
-5 1 20 n__
-20 3 30 n__
+0 4 30 n  
+3 2 40 n  
+5 1 20 n  
+20 3 30 n  
 
 The program should simulate execution of 4 processes where process 4 arrives at time 0, needs 30 seconds running time to finish; process 2 arrives at time 3 and needs 40 seconds of time to complete.
 Each line (including the last) will be terminated with a LF (ASCII 0x0a) control character.
