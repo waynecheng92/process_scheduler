@@ -44,5 +44,5 @@ Each line (including the last) will be terminated with a LF (ASCII 0x0a) control
 You can read the whole file before starting the simulation or read one line at a time. We will not give malformed input (e.g., negative number of processors after `-p` or more than 4 columns in the process description file).
 
 ## Expected ouput
-* Execution transcript
+* Execution transcript  
   For the following events the code should print out a line in the following format:
