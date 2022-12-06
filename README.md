@@ -12,7 +12,7 @@ Once a process or subprocess is assigned to a CPU it cannot migrate to another C
 finished.
 
 
-## Challenge
+## Challenge: Improve the performance
 You will be asked to measure the overall time of your simulation (Makespan). The challenge task is to come up with an algorithm that has a shorter makespan on a set of tests.  
 For this task the choice of k when splitting a parallelisable process is left to you. You are also allowed to “look into the future” and see what processes will be arriving and use this information if you choose to.
 
@@ -21,7 +21,7 @@ Take the following command line arguments. The arguments can be passed in any or
 
 * `-f` **filename** will specify the name of the file describing the processes.
 * `-p` **processors** where processors is one of {1,2,N}, N ≤ 1024.
-* `-c` an optional parameter, when provided, invokes your own scheduler from [Challenge] (#chanllenge).
+* `-c` an optional parameter, when provided, invokes your own scheduler from [Challenge](#chanllenge).
 
 The **filename** contains the processes to be executed and has the following format. Each line of the file corresponds to a process. The first line refers to the first process that needs to be executed, and the last line refers to the last process to be executed. Each line consists of a space-separated tuple **(time-arrived, process-id, execution-time, parallelisable)**. You can assume that the file will be sorted by time-arrived which is an integer between 0 and 2^32 indicating seconds; all **process-ids** will be distinct integers between 0 and 2^32 and the first process will always have **time-arrived** set to 0; **execution-time** will be an integer between 0 and 2^32 indicating seconds; **parallelisable** is either n or p. If it is p, then the corresponding process is parallelisable; if it is n, it is not. You can ignore n/p when -p is 1. More than one process can arrive at the same time.
 
