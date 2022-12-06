@@ -1,0 +1,1 @@
+My algorithm avoids CPU gets idle as much as possible to not waste time. Also, it avoids unnecessary	splitting to paralellisable processes if splitting them into sub-processes will result in longer execution time.
