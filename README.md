@@ -73,6 +73,7 @@ For the following events the code should print out a line in the following forma
 * If there is more than one event to be printed at the same time: print FINISHED before RUNNING and print events for smaller CPU ids first.  
 
   Example:  
+  
   Consider the last remaining process which has 10 seconds left to completion. Then the following lines may be printed:
   ```
   20,RUNNING,pid=15,remaining_time=10,cpu=1  
