@@ -84,3 +84,9 @@ When the simulation is completed, 3 lines with the following performance statist
   * **Turnaround time:** average time (in seconds, rounded up to an integer) between the time when the process completed and when it arrived.  
   * **Time overhead:** maximum and average time overhead when running a process, both rounded to the first two decimal points, where overhead is defined as the turnaround time of the process divided by its total execution time (i.e., the one specified in the process      description file).  
   * **Makespan:** the time in seconds when your simulation ended.  
+  * Example: For the invocation with arguments -p 1 and the processes file as described above, the simuation would print:
+      ```
+      Turnaround time 62
+      Time overhead 2.93 1.9
+      Makespan 120
+      ```
