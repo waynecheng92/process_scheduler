@@ -48,7 +48,7 @@ For the following events the code should print out a line in the following forma
 * When a (sub)process starts and every time it resumes its execution:  
 
      ```
-     <current-time>,RUNNING,pid=<process-id>,remaining_time=<T>,cpu=<cpu-id>\n  
+     <current-time>,RUNNING,pid=<process-id>,remaining_time=<T>,cpu=<cpu-id>
      ```
   where:  
   `current-time` refers to the time at which CPU is given to a process;  
@@ -63,7 +63,7 @@ For the following events the code should print out a line in the following forma
     ```
 * Every time a process finishes:
     ```
-    <current-time>,FINISHED,pid=<process-id>,proc_remaining=<num-proc-left>\n
+    <current-time>,FINISHED,pid=<process-id>,proc_remaining=<num-proc-left>
     ```
   where:  
   `<current-time>` is as above for the RUNNING event;  
