@@ -62,7 +62,9 @@ For the following events the code should print out a line in the following forma
     20,RUNNING,pid=15,remaining_time=10,cpu=0
     ```
 * Every time a process finishes:
-     <current-time>,FINISHED,pid=<process-id>,proc_remaining=<num-proc-left>\n
+    ```
+    <current-time>,FINISHED,pid=<process-id>,proc_remaining=<num-proc-left>\n
+    ```
   where:  
   `<current-time>` is as above for the RUNNING event;  
   `process-id` refers to the id of the process that has just been completed;  
