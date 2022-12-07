@@ -69,3 +69,5 @@ For the following events the code should print out a line in the following forma
   `<current-time>` is as above for the RUNNING event;  
   `process-id` refers to the id of the process that has just been completed;  
   `num-proc-left` refers to the number of processes that are waiting to be executed over all processors (i.e., those that have already     arrived but not yet completed, including those that have unfinished subprocesses).
+  
+* If there is more than one event to be printed at the same time: print FINISHED before RUNNING and print events for smaller CPU ids first.
