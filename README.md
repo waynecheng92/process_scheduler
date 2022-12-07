@@ -51,10 +51,10 @@ For the following events the code should print out a line in the following forma
      <current-time>,RUNNING,pid=<process-id>,remaining_time=<T>,cpu=<cpu-id>\n  
      ```
   where:  
-  ‘current-time’ refers to the time at which CPU is given to a process;  
-  ‘process-id’ refers to the id of the process that is about to be run;  
-  ‘T’ refers to the remaining execution time for this process;  
-  ‘cpu-id’ refers to the processor where the process is scheduled on. It can be 0, 1, 2 . . . , N − 1 when
+  `current-time` refers to the time at which CPU is given to a process;  
+  `process-id` refers to the id of the process that is about to be run;  
+  `T` refers to the remaining execution time for this process;  
+  `cpu-id` refers to the processor where the process is scheduled on. It can be 0, 1, 2 . . . , N − 1 when
   -p N for N ≥ 1;  
   
   Sample output could be:  
@@ -64,6 +64,6 @@ For the following events the code should print out a line in the following forma
 * Every time a process finishes:
      <current-time>,FINISHED,pid=<process-id>,proc_remaining=<num-proc-left>\n
   where:
-  ‘<current-time>’ is as above for the RUNNING event;  
-  ‘process-id’ refers to the id of the process that has just been completed;  
-  ‘num-proc-left’ refers to the number of processes that are waiting to be executed over all processors (i.e., those that have already     arrived but not yet completed, including those that have unfinished subprocesses).
+  `<current-time>` is as above for the RUNNING event;  
+  `process-id` refers to the id of the process that has just been completed;  
+  `num-proc-left` refers to the number of processes that are waiting to be executed over all processors (i.e., those that have already     arrived but not yet completed, including those that have unfinished subprocesses).
