@@ -14,10 +14,6 @@ Once a process or subprocess is assigned to a CPU it cannot migrate to another C
 finished.
 
 
-## Challenge: Improve the performance
-You will be asked to measure the overall time of your simulation (Makespan). The challenge task is to come up with an algorithm that has a shorter makespan on a set of tests. For this task the choice of k when splitting a parallelisable process is left to you. You are also allowed to “look into the future” and see what processes will be arriving and use this information if you choose to.
-
-
 ## Program specification
 Take the following command line arguments. The arguments can be passed in any order but you can assume that they will be passed exactly once.
 
@@ -89,3 +85,6 @@ When the simulation is completed, 3 lines with the following performance statist
       Time overhead 2.93 1.9
       Makespan 120
       ```
+      
+## Challenge: Improve the performance
+You will be asked to measure the overall time of your simulation '**Makespan**'. The challenge task is to come up with an algorithm that has a shorter makespan on a set of tests. For this task the choice of k when splitting a parallelisable process is left to you. You are also allowed to “look into the future” and see what processes will be arriving and use this information if you choose to.
