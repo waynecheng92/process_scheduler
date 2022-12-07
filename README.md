@@ -79,5 +79,8 @@ For the following events the code should print out a line in the following forma
   30,FINISHED,pid=15,proc_remaining=0
   ```
   
-  
-
+## Performance statistics
+When the simulation is completed, 3 lines with the following performance statistics about your simulation performance should be printed:
+  * Turnaround time: average time (in seconds, rounded up to an integer) between the time when the process completed and when it arrived; 
+  * Time overhead: maximum and average time overhead when running a process, both rounded to the first two decimal points, where overhead   is defined as the turnaround time of the process divided by its total execution time (i.e., the one specified in the process             description file). 
+  * Makespan: the time in seconds when your simulation ended.
